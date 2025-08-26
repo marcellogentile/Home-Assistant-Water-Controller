@@ -4,7 +4,7 @@ Add water consumption, water detection and water valve shutoff with HOME ASSISTA
 
 In this example* Aux 1 and Aux 2 are being used for HVAC Control and Alarm Trigger.   They contain NC and NO terminals.
 
-![[images/screenshot_ha_dashboard_1.png]]
+![HA Dashboard](images/screenshot_ha_dashboard.png)
 
 \* *Example dashboard used in a private datacenter*
 
@@ -19,7 +19,7 @@ In this example* Aux 1 and Aux 2 are being used for HVAC Control and Alarm Trigg
 
 
 
-![[images/Board_Connections.png]]
+![Board Connection](images/Board_Connection.png)
 
 ***You can use any suitable components as long as they are of similar specs***
 
