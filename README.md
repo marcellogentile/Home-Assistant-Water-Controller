@@ -1,11 +1,11 @@
 
-# Home Assiatant Water Controller
+# Home Assistant Water Controller
 
-This project adds water consumption, water detection and water valve shutoff using ESP-HOME and HOme Assistant. It also has an iput
+This project adds water consumption, water detection and water valve shutoff using ESP-HOME and Home Assistant. It also has an iput
 
 for a temperture probe and 2 auxiliary outputs you can use as NO and NC dry contacts.
 
-In this example* Aux 1 and Aux 2 are being used for HVAC Control and Alarm Trigger.   They contain NC and NO terminals.
+In this example* - Aux 1 and Aux 2 are being used for HVAC Control and Alarm Trigger.
 
 ![HA Dashboard](images/screenshot_ha_dashboard.png)
 
@@ -37,14 +37,12 @@ https://www.grisk.com/wp-content/uploads/mdocs/Surface%20Mount%20Water%20Contact
 **Water Temperature Sensor:**
 https://www.adafruit.com/product/381?srsltid=AfmBOopcvsphHhFMN7vdk5z4x4kFJ_ILU1R99YX9l1MTcdYD6azt7ZiW
 
-
 **BUILDING the BOARD:**
 
- - Send the Gerber files to your favourite PCB maker.  
- - Components required are included in the [BOM list](ibom.html).  
+- Send the Gerber files to your favourite PCB maker.  
+- Components required are included in the [BOM list](ibom.html).  
 
-
-**FLASHING:**
+**FLASHING the BOARD:**
 
 1. Connect the board to an ESP32 Programmer such as the ESP32-Prog https://docs.espressif.com/projects/esp-iot-solution/en/latest/hw-reference/ESP-Prog_guide.html using conn1.  Use Tx, Rx, Gnd connections.   You can also use IO0 and EN pins for auto upload if your programmer supports it.
 2. MODIFY the configuration file to suit your needs (water-comtroller.yaml)
@@ -52,3 +50,5 @@ https://www.adafruit.com/product/381?srsltid=AfmBOopcvsphHhFMN7vdk5z4x4kFJ_ILU1R
 4. Create your dashboard
 5. Enjoy
 
+**TODO**
+Configuration for the temperature sensor or led status
