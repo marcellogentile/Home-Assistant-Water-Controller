@@ -38,7 +38,7 @@ In this example* - Aux 1 and Aux 2 are being used for HVAC Control and Alarm Tri
 **BUILDING the BOARD:**
 
 - Send the Gerber files to your favourite PCB maker.  
-- Components required with LCSC part numbers [Open iBOM in Browser](https://marcellogentile.github.io/Home-Assistant-Water-Controller/ibom.html).
+- Components required (included LCSC part numbers) [Open iBOM in Browser](https://marcellogentile.github.io/Home-Assistant-Water-Controller/ibom.html).
 
 **FLASHING the BOARD:**
 
